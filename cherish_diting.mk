@@ -7,10 +7,17 @@
 # Inherit from diting device
 $(call inherit-product, device/xiaomi/diting/device.mk)
 
-# Inherit from common lineage configuration
-$(call inherit-product, vendor/lineage/config/common_full_phone.mk)
+# Inherit from common cherish configuration
+$(call inherit-product, vendor/cherish/config/common_full_phone.mk)
 
-PRODUCT_NAME := lineage_diting
+# CherishOS
+WITH_GMS := true
+TARGET_USES_PICO_GAPPS := true
+TARGET_HAS_UDFPS := true
+CHERISH_BUILD_TYPE := UNOFFICIAL
+PRODUCT_SYSTEM_DEFAULT_PROPERTIES += ro.cherish.maintainer=KernelPanix
+
+PRODUCT_NAME := cherish_diting
 PRODUCT_DEVICE := diting
 PRODUCT_MANUFACTURER := Xiaomi
 PRODUCT_BRAND := Xiaomi

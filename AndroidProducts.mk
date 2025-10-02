@@ -5,4 +5,4 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/lineage_diting.mk
+    $(LOCAL_DIR)/cherish_diting.mk
