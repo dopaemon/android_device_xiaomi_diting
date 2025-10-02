@@ -10,6 +10,12 @@ $(call inherit-product, device/xiaomi/diting/device.mk)
 # Inherit from common lineage configuration
 $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 
+# DerpFest
+DERPFEST_BUILD_TYPE := UNOFFICIAL
+DERPFEST_BUILD_VARIANT := Stable
+TARGET_INCLUDE_LIVE_WALLPAPERS := true
+TARGET_USES_PICO_GAPPS := true
+
 PRODUCT_NAME := lineage_diting
 PRODUCT_DEVICE := diting
 PRODUCT_MANUFACTURER := Xiaomi
