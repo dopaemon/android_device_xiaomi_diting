@@ -1,2 +1,9 @@
 # Xiaomi
 ro.product.mod_device=diting
+
+# InfinityX
+ro.product.marketname=Xiaomi 12T Pro
+ro.infinity.soc=Snapdragon 8 Plus Gen 1
+ro.infinity.battery=5000 mAh
+ro.infinity.display=1220 x 2712, 120 Hz
+ro.infinity.camera=200MP + 8MP + 2MP
